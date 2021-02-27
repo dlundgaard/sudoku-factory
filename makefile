@@ -31,4 +31,4 @@ convert :
 
 print : 
 	@echo -n "🖨️  Printing... "
-	#mspaint.exe -pt '$(shell wslpath -w $(EXPORT)/export.jpg)'
+	mspaint.exe -pt '$(shell wslpath -w $(EXPORT)/export.jpg)'
